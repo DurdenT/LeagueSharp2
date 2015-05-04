@@ -209,9 +209,8 @@ namespace Zed
                     .AddItem(new MenuItem("CircleThickness", "Circles Thickness").SetValue(new Slider(1, 10, 1)));
                 _config.AddToMainMenu();
                 new AssassinManager();
-                new DamageIndicator();
 
-                DamageIndicator.DamageToUnit = ComboDamage;
+
                 Game.PrintChat("<font color='#881df2'>Zed is Back by jackisback</font> Loaded.");
                 Game.PrintChat("<font color='#f2881d'>if you wanna help me to pay my internet bills^^ paypal= bulut@live.co.uk</font>");
 
